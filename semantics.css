@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    font-family:Arial;
+}
+header{
+    background-color:black;
+    height:70px;
+}
+h1{
+    color: white;
+}
+.logo{
+    background-image: url("zensarlogo.png");
+    height:45px;
+    width:155px;
+    margin-top: 3px;
+    padding-bottom: 2px;
+    border: 2px solid black;
+}
+
+.search-select{
+    width:50px;
+    background-color: #f3f3f3;
+    align-items: center;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border:none;
+
+}
+footer{
+    background-color:black;
+    height:90px; 
+    float: none;
+    clear:both;
+}
+.sidebar {
+    width: 150px;
+    background-color:black;
+    color: #fff;
+}
+
+
+.options{
+    margin-left: 33cm;
+    color: white;
+    font-size: 15px;
+}
+.logout{
+    padding:10px 10px 10px 10px;
+
+    margin-left: 33cm;
+    color: white;
+    font-size: 15px;
+
+}
+.navbar{
+    background-color: grey;
+    height:40px;
+    border:2px solid black;
+
+}
+a{
+    color: white;
+    padding:10px 10px 10px 10px;
+}
+aside{
+    background-color:grey;
+    width:20%;
+    height:11cm;
+    border:1px solid black;
+    border-top:none;
+    float: left;
+
+  }
+  section{
+    width:80%;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+li{
+    color:white;
+    font-size: 15px;
+    list-style: none;
+    padding:10px 10px 10px 10px;
+}

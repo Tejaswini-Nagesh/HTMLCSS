@@ -1,0 +1,30 @@
+.flex-container{
+    display:flex;
+    border:1px solid black;
+    flex-direction: column;
+    
+}
+header{
+    height:60px;
+    background-color: grey;
+    display:flex;
+}
+article{
+    display: flex;
+    background-color: antiquewhite
+}
+footer{
+    display:flex;
+    background-color: aquamarine;
+}
+nav,aside{
+   flex: 1;
+   background-color: bisque;
+}
+main{
+    display: flex;
+
+}
+article{
+    flex: 2 2 12em;
+}

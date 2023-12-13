@@ -1,0 +1,36 @@
+header{
+   background-color: darkred;
+   height: 60px; 
+   text-align: center;
+}
+nav{
+    background-color: moccasin;
+    height: 40px;
+}
+span{
+    padding:  10px 10px 10px;
+  
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding:20px;
+    height:500px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+
+}
+.grid-item {
+    background-color :white;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  img{
+      height: 400px;
+      width:200px;
+  }
+  p{
+      font-size: 14px;
+  }

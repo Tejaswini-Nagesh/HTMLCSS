@@ -1,0 +1,19 @@
+#rectangle{
+    border: 2px solid black;
+    height: 100px;
+    width:300px;
+    display: flex;
+    justify-content: center;   
+    background-color: cadetblue;
+}
+#center-container{
+    text-align: center;
+
+}
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
